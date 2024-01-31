@@ -1,6 +1,4 @@
-m = int(input("Enter your time is minutes: "))
-s = 12601
-s = s % (24 * 3600)
-h = s // 3600
-n = s // 60
-print(f"{round(h, 2)} : {n}")
+m=int(input("enter the time in minute : "))
+hour = m/60
+minute =m%60
+print("%d:%02d" %(hour,minute))
